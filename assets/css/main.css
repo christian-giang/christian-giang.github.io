@@ -2385,7 +2385,7 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 96%;
 		}
 
 			ul.feature-icons li:before {
@@ -2667,7 +2667,7 @@ input, select, textarea {
 			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 48%;
+			width: 25%;
 		}
 
 			.features article .image img {
@@ -2678,10 +2678,34 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 70%;
 		}
 
 			.features article .inner > :last-child {
+				margin-bottom: 0;
+			}
+
+		.features article .image2 {
+			display: inline-block;
+			padding-right: 2.5em;
+			vertical-align: middle;
+			width: 40%;
+			border-bottom: solid 0px
+
+		}
+
+			.features article .image2 img {
+				display: block;
+				width: 100%;
+				border-radius: 10px;
+			}
+
+		.features article .inner2 {
+			display: inline-block;
+			vertical-align: middle;
+			width: 55%;
+		}
+			.features article .inner2 > :last-child {
 				margin-bottom: 0;
 			}
 
